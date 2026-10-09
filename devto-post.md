@@ -16,13 +16,11 @@ It's for anyone who sets out for a walk and ends up scrolling, and especially fo
 
 ## Demo
 
-<!-- TODO: add a short video or GIF of the command running, plus a photo of the printed card in the wild. -->
-A sample card is in the repo at `examples/sample-card.html`.
+A sample card is in the repo at [`examples/sample-card.html`](https://github.com/anishaga/touchgrass/blob/main/examples/sample-card.html). Run the tool with `--demo` to generate one without a model.
 
 ## Code
 
-{% embed https://github.com/anishagarwal/touchgrass %}
-<!-- TODO: push the touchgrass folder to GitHub and replace YOUR-USERNAME. -->
+{% embed https://github.com/anishaga/touchgrass %}
 
 ## How I Built It
 
@@ -51,10 +49,6 @@ I generated the card for a walk around the neighborhood. I set the location coor
 During the walk, it was incredibly refreshing to keep the phone in my pocket. I actually managed to check off four out of the six prompts: "Something that changed since last week" (the leaves were noticeably more orange) and "A pattern that repeats" (brickwork on a path). I also did the listening exercise for a minute straight.
 
 The card took about 8-10 seconds to generate locally using Gemma 3 1B on my Windows machine. It was fast, coherent, and perfectly fulfilled the mission without ever feeling like an "AI feature".
-
-## My Agent Session
-
-<!-- TODO (optional): save the coding session with DevRelay and embed it, or link to it. -->
 
 ## Prize Categories
 

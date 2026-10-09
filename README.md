@@ -23,7 +23,8 @@ python touchgrass.py --lat 40.66 --lon -73.97 --minutes 60 --mood calm --with "t
 | `--mood`, `--with`, `--place` | flavour for the prompts |
 | `--model` | any model your local server has pulled (`TOUCHGRASS_MODEL`) |
 | `--host` | any Ollama-compatible endpoint (`TOUCHGRASS_HOST`) |
-| `--demo` | skip the model; for testing only |
+| `--out` | output file path (default `field-card.html`) |
+| `--demo` | skip the model; emit a sample card for testing |
 
 ## How it works
 
@@ -31,3 +32,7 @@ python touchgrass.py --lat 40.66 --lon -73.97 --minutes 60 --mood calm --with "t
 - **Words from the model.** The facts go to a local model as ground truth (default `gemma3:1b`, small enough for a plain laptop; try `--model gemma3:4b` for richer cards). Output is constrained to a JSON schema, then validated, clipped and retried up to three times.
 - **Safe by design.** The model only prompts you to notice, count, listen and compare. It never identifies or recommends touching or eating plants, fungi or animals, and a word check in code rejects any card that tries.
 - **Swap the voice.** The whole personality is the `SYSTEM` string at the top of `touchgrass.py`. Fork it for a birder edition or a kid edition.
+
+## License
+
+[MIT](LICENSE)

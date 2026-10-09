@@ -1,0 +1,5 @@
+# Generated cards (keep the demo sample)
+field-card.html
+
+__pycache__/
+*.pyc
